@@ -1,0 +1,68 @@
+      People  Class     Hurst  ...      SKEW  KURTOSIS       PFD
+0          1      0  0.975042  ...  0.174661  0.262018  0.579023
+1          1      0  0.871894  ...  0.106446 -0.294814  0.578537
+2          1      0  0.831316  ...  0.328515  0.358776  0.579514
+3          2      0  0.769326  ... -0.147464  0.079746  0.574166
+4          2      0  0.659403  ... -0.095182  0.561877  0.564540
+...      ...    ...       ...  ...       ...       ...       ...
+1903     105      1  0.287296  ... -0.209089  0.337876  0.575276
+1904     105      1  0.317583  ...  0.136049 -0.474434  0.584183
+1905     106      1  0.342619  ...  0.129620  0.441926  0.576877
+1906     106      1  0.309050  ...  0.088838 -0.040437  0.577819
+1907     106      1  0.331672  ...  0.317441  0.649765  0.574829
+
+[2226 rows x 10 columns]
+**************************************************
+ADA BOOSTING
+Training Execution Time :  0.0628669261932373 s
+Testing Execution Time :  0.0033779144287109375
+False Accept Rate :  0.002
+False Reject Rate :  0.011
+Half Total Error :  0.006
+F1 Score :  1
+Accuracy :  99.7 %
+**************************************************
+SUPPORT VECTOR MACHINE
+Training Execution Time :  0.007943153381347656
+Testing Execution Time :  0.0024230480194091797
+False Accept Rate :  0.014
+False Reject Rate :  0.423
+Half Total Error :  0.218
+F1 Score :  1
+Accuracy :  89.49000000000001 %
+**************************************************
+RANDOM FOREST CLASSIFIER
+Training Execution Time :  0.0893409252166748
+Testing Execution Time :  0.005246877670288086
+False Accept Rate :  0.002
+False Reject Rate :  0.011
+Half Total Error :  0.006
+F1 Score :  1
+Accuracy :  99.7 %
+**************************************************
+LOGISTIC REGRESSION
+Training Execution Time :  0.006491184234619141
+Testing Execution Time :  4.792213439941406e-05
+False Accept Rate :  0.009
+False Reject Rate :  0.022
+Half Total Error :  0.016
+F1 Score :  1
+Accuracy :  98.95 %
+**************************************************
+HIERARCHICAL CLUSTERING
+Training Execution Time :  0.023835182189941406
+Testing Execution Time :  0.0035851001739501953
+False Accept Rate :  0.0
+False Reject Rate :  0.747
+Half Total Error :  0.374
+F1 Score :  1
+Accuracy :  58.709999999999994 %
+**************************************************
+MULTILAYER PERCEPTRON CLASSIFIER
+Training Execution Time :  0.6466720104217529
+Testing Execution Time :  0.002370119094848633
+False Accept Rate :  0.022
+False Reject Rate :  0.059
+Half Total Error :  0.04
+F1 Score :  1
+Accuracy :  97.3 %
